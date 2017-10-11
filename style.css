@@ -1,0 +1,42 @@
+/*-------------------------------------------------------
+Theme Name: Masiello Theme (Divi)
+Theme URI: https://masielloarchitect.com/
+Description: The Masiello Architect theme, based on Divi by ElegantThemes
+Author: Mike Murray
+Author URI: http://www.worcesterwebgroup.com
+Template: Divi
+Version: 1.0.0
+--------------------------------------------------------*/
+
+/* ------------------------------------
+$ Globals
+------------------------------------ */
+
+/* ---- Buttons ---- */
+a.add_button_small {
+  font-size: 90%;
+  border: 1px solid;
+}
+a.et_pb_button.add_button_small:after {
+  font-size: 100% !important;
+}
+
+/* ---- Additive Classes ---- */
+
+.add_margin_0 { margin-bottom: 0 !important; }
+.add_margin_5 { margin-bottom: 5px !important; }
+.add_margin_10 { margin-bottom: 10px !important; }
+.add_margin_15 { margin-bottom: 15px !important; }
+.add_margin_20 { margin-bottom: 20px !important; }
+.add_margin_25 { margin-bottom: 25px !important; }
+.add_margin_30 { margin-bottom: 30px !important; }
+.add_margin_35 { margin-bottom: 35px !important; }
+.add_margin_40 { margin-bottom: 40px !important; }
+.add_margin_45 { margin-bottom: 45px !important; }
+.add_margin_50 { margin-bottom: 50px !important; }
+
+/* ------------------------------------
+$ Page Specific
+------------------------------------ */
+
+/* ---- Projects ---- */
