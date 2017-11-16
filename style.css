@@ -40,3 +40,17 @@ $ Page Specific
 ------------------------------------ */
 
 /* ---- Projects ---- */
+
+.et_pb_has_overlay .design_work_title {
+  display: block;
+  position: absolute;
+  width: 100%;
+  top: 35%;
+  z-index: 4;
+  font-size: 16px;
+  opacity: 0;
+}
+
+.et_pb_has_overlay:hover .design_work_title {
+  opacity: 1;
+}
