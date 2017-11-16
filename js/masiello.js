@@ -10,7 +10,6 @@
         titleAttrHTML += titleAttr;
         titleAttrHTML += '</span>';
         $(imageContainer).find('a').append(titleAttrHTML);
-        console.log(titleAttr);
       }
     })
   });

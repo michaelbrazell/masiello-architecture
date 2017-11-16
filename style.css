@@ -36,8 +36,28 @@ a.et_pb_button.add_button_small:after {
 .add_margin_50 { margin-bottom: 50px !important; }
 
 /* ------------------------------------
-$ Page Specific
+$ Page Specific / Template
 ------------------------------------ */
+
+.nav li ul.sub-menu {
+  width: 300px;
+}
+
+.nav li ul.sub-menu li {
+  width: 100%;
+}
+
+#top-menu li li a {
+  width: 100%;
+}
+
+.home .header-content {
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.4);
+}
+
+.et_pb_fullwidth_header.et_pb_fullwidth_header_0 {
+  background-position-y: 65%;
+}
 
 /* ---- Projects ---- */
 
