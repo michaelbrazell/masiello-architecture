@@ -51,11 +51,22 @@ $ Page Specific / Template
   width: 100%;
 }
 
-.home .header-content {
+/* ---- Homepage ---- */
+/* Offset the viewport height by the height of the fixed header */
+.home .fullscreen-slider {
+  height: calc(100vh - 117px)
+}
+
+.home .fullscreen-slider .et_pb_slide {
+  height: calc(100vh - 117px)
+}
+
+.home .fullscreen-slider .et_pb_slide h2 {
+  font-weight: 500;
   text-shadow: 1px 1px 1px rgba(0,0,0,0.4);
 }
 
-.et_pb_fullwidth_header.et_pb_fullwidth_header_0 {
+.home .fullscreen-slider .et_pb_slide_1 {
   background-position-y: 65%;
 }
 
@@ -74,3 +85,4 @@ $ Page Specific / Template
 .et_pb_has_overlay:hover .design_work_title {
   opacity: 1;
 }
+

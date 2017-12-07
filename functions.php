@@ -2,6 +2,8 @@
 /*-------------------------------------------------------
  * Masiello Theme Functions.php
 --------------------------------------------------------*/
+
+
  
 function divichild_enqueue_styles() {
   $parent_style = 'parent-style';
