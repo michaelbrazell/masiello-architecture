@@ -78,8 +78,14 @@ $ Page Specific / Template
   width: 100%;
   top: 35%;
   z-index: 4;
+  line-height: 1.2;
   font-size: 16px;
+  padding: 0 20px;
   opacity: 0;
+}
+
+.page-parent .et_overlay.et_pb_inline_icon:before {
+  top: 60% !important;
 }
 
 .et_pb_has_overlay:hover .design_work_title {
