@@ -63,7 +63,12 @@ $ Page Specific / Template
 
 .home .fullscreen-slider .et_pb_slide h2 {
   font-weight: 500;
-  text-shadow: 1px 1px 1px rgba(0,0,0,0.4);
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+}
+
+.home .fullscreen-slider .et_pb_slide.et_pb_slide_0 h2, .home .fullscreen-slider .et_pb_slide.et_pb_slide_2 h2 {
+  font-weight: 500;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.9);
 }
 
 .home .fullscreen-slider .et_pb_slide_1 {
