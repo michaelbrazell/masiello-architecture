@@ -39,8 +39,8 @@ a.et_pb_button.add_button_small:after {
 $ Page Specific / Template
 ------------------------------------ */
 
-.nav li ul.sub-menu {
-  width: 350px;
+body.et_divi_theme .nav li ul.sub-menu {
+  width: 320px;
 }
 
 .nav li ul.sub-menu li {
