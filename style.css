@@ -97,3 +97,14 @@ body.et_divi_theme .nav li ul.sub-menu {
   opacity: 1;
 }
 
+/* Remove Image Titles Captions */
+.mfp-bottom-bar .mfp-title {
+  display: none;
+}
+
+/* ---- Media Queries ---- */
+
+@media screen and (max-width: 475px) {
+  body.et_divi_theme .et_pb_slider .et_pb_slide .et_pb_slide_description h2.et_pb_slide_title { font-size: 28px !important; }
+}
+
